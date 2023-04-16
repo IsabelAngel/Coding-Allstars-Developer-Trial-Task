@@ -11,16 +11,3 @@ I configured the Dockerfile with the installation of python, its modules, requir
 I created a function that with the langdetect module detects what is the language of the visited page.  
 
 I made the commitments to Github to the latest version of this program and I couldn't reach the image and bar assesment
-
-## 💁‍♀️ How to use
-
-- Download the CSV and python files
-- Execute the code with F5
-- In the df dataframe variable you will find the results
-
-## 📝 Notes
-
-- To learn about how to use FastAPI with most of its features, you can visit the [FastAPI Documentation](https://fastapi.tiangolo.com/tutorial/).
-- FastAPI provides automatic documentation to call and test your API directly from the browser. You can access it at `/docs` with [Swagger](https://github.com/swagger-api/swagger-ui) or at `/redoc` with [Redoc](https://github.com/Rebilly/ReDoc).
-- Selenium Webdriver is an automation library designed to enable testing and scraping of websites. Learn more about [Selenium](https://www.selenium.dev/documentation/webdriver/getting_started/)
-- Thank you to the original [FastAPI Template](https://github.com/railwayapp-templates/fastapi)

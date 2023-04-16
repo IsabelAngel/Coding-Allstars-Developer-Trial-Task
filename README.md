@@ -1,30 +1,12 @@
----
-title: FastAPI + Selenium Webdriver
-description: A FastAPI server with Selenium set up
-tags:
-  - fastapi
-  - python
-  - selenium
----
+# WebScrapping and Language detector
 
-# FastAPI Example
-
-This example starts up a [FastAPI](https://fastapi.tiangolo.com/) server with selenium already configured.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/pXu4Vv?referralCode=qL1H20)
-
-## ✨ Features
-
-- FastAPI
-- Python 3
-- Selenium
+I read the CSV file with pandas, skipping the bad lines and using the ";" separator because of my PC configuration. after that I created a for loop, that looks into each of the URLS of the dataframe "df" that contains the CSV read. It uses a try-except-finally to control four exception types used from the urllib, urllib3 and ssl modules for those pages that could not be opened due to different reasons. In the list "IdentifiedLanguage" I saved the result of PASS or FAIL of each page and later in the line 51 I insert the column with the result, so the user can export the dataframe "df" with the asked results. I configured the Dockerfile with the installation of python, its modules, requirements of the different packages and main files for the deployment in RailWay but RailWay for some reason didn't trust in my github repository, so I couldn't build and deploy it.  I created a function that with the langdetect module detects what is the language of the visited page.  I made the commitments to Github to the latest version of this program and I couldn't reach the image and bar assesment
 
 ## 💁‍♀️ How to use
 
-- Deploy using the button 👆
-- Clone locally and install packages with Pip using `pip install -r requirements.txt` or Poetry using `poetry install`
-- Connect to your project using `railway link`
-- Run locally using `uvicorn main:app --reload`
+- Download the CSV and python files
+- Execute the code with F5
+- In the df dataframe variable you will find the results
 
 ## 📝 Notes
 
